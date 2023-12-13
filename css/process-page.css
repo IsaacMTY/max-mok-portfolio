@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Garet;
+    src: url(../fonts/Garet-Book.ttf);
+}
+
+@font-face {
+    font-family: Garet-Heavy;
+    src: url(../fonts/Garet-Heavy.ttf);
+}
+
+h5 {
+    font-family: Garet-Heavy;
+    font-size: 20px;
+}
+
+p {
+    font-family: Garet;
+    font-size: 15px;
+}

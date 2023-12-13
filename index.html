@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <title>Max Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  
+</head>
+
+
+<body>
+
+  <nav class="top-bar navbar navbar-expand-sm bg-color">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+        <img src="./images/Logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <a class="nav-link px-3" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3" href="./arts.html" role="button" data-bs-toggle="dropdown">Arts</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./arts-sketches.html">Sketches</a></li>
+                <li><a class="dropdown-item" href="./arts-portfolio.html">Portfolio</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link px-3" href="./photography.html">Photography</a>
+            </li>  
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3" href="./videography.html" role="button" data-bs-toggle="dropdown">Videography</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./videography.html#Film">Film</a></li>
+                <li><a class="dropdown-item" href="./videography.html#Documentary">Documentary</a></li>
+                <li><a class="dropdown-item" href="./videography.html#Wedding">Wedding</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link px-3" href="./contact-me.html">Contact Me</a>
+            </li>  
+        </ul>
+        </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/maxresdefault.jpg" alt="Los Angeles" class="d-block">
+        <div class="carousel-caption">
+          <h3>Interviewing Baldy</h3>
+          <p>The Future of Sustainable Fashion</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/Portfolio/port12.jpg" alt="Chicago" class="d-block">
+        <div class="carousel-caption">
+          <h3>Portfolio - Oil Painting</h3>
+          <p>Painting real life objects with oil</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="./images/photography_2.jpg" alt="New York" class="d-block">
+        <div class="carousel-caption">
+          <h3>Trailer</h3>
+          <p>Special moment to our short film</p>
+        </div>  
+      </div>
+      <div class="carousel-item">
+        <img src="./images/photography_4.jpg" alt="New York" class="d-block">
+        <div class="carousel-caption">
+          <h3>Filimg</h3>
+          <p>How does filming look like?</p>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- CCT Project Documentation -->
+  <div class="container-fluid highlight-0 highlight-container p-5">
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <h3>CCT360 + CCT250</h3>
+        <p>This portfolio is a joint project from two courses at the University of Toronto. Please refer to the documentation for each course.</p>
+      </div>
+      <div class="col-lg-3 mt-3 mt-sm-0">
+        <div class="card border-0 card-1">
+          <img class="card-img-top" src="./images/snapshot cct250.png" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">CCT250</h4>
+            <p class="card-text">The assignment focuses mostly on the interactive elements and creating a prototype using Adobe XD for user testing and showcasing</p>
+            <a href="./process_page.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mt-3 mt-sm-0">
+        <div class="card border-0 card-2">
+          <img class="card-img-top" src="./images/snapshot cct360.png" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">CCT360</h4>
+            <p class="card-text">The assignment focuses mostly on programming using HTML and CSS with the application of Bootstrap Five</p>
+            <a href="./process_page.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Highlight 1 -->
+  <div class="container-fluid highlight-1 highlight-container p-5">
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <h3>Film</h3>
+        <p>The films are produced by Max with a Canon-M. Max plays the role in directing, filming and after production. Max wants to bring peace and imagination to the society in a more retro and vintage style.</p>
+      </div>
+      <div class="col-lg-3 mt-3 mt-sm-0">
+        <div class="card border-0 card-1">
+          <img class="card-img-top" src="./images/maxresdefault.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Interview with Baldy</h4>
+            <p class="card-text">On behalf of the Emily Carr University Fashion Club, this is an interview with Baldy.</p>
+            <a href="./videography.html#Documentary" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mt-3 mt-sm-0">
+        <div class="card border-0 card-2">
+          <img class="card-img-top" src="./images/Photography_1.JPG" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Interview with Baldy</h4>
+            <p class="card-text">On behalf of the Emily Carr University Fashion Club, this is an interview with Baldy.</p>
+            <a href="./videography.html#Film" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Highlight 2 -->
+  <div class="container-fluid highlight-2 highlight-container p-5">
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <h3>Arts</h3>
+        <p>The arts session include sketches and Portfolio. Portfolio is the artwork that took effort, time and planning to finish; Sketches features many pencil drawings practices ususally under a few minutes.</p>
+      </div>
+      <div class="col-lg-3 mt-3 mt-sm-0">
+        <div class="card border-0 card-1">
+          <img class="card-img-top" src="./images/Untitled_Artwork 1.JPG" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Sketches - 1</h4>
+            <a href="./arts-sketches.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mt-3 mt-sm-0">
+        <div class="card border-0 card-2">
+          <img class="card-img-top" src="./images//Portfolio/port12.JPG" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Interview with Baldy</h4>
+            <p class="card-text">On behalf of the Emily Carr University Fashion Club, this is an interview with Baldy.</p>
+            <a href="./arts-portfolio.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

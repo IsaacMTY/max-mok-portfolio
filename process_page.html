@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <title>Max Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <link href="css/process-page.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  
+</head>
+
+
+<body>
+
+  <nav class="top-bar navbar navbar-expand-sm bg-color">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+        <img src="./images/Logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <a class="nav-link px-3" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3" href="./arts.html" role="button" data-bs-toggle="dropdown">Arts</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./arts-sketches.html">Sketches</a></li>
+                <li><a class="dropdown-item" href="./arts-portfolio.html">Portfolio</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link px-3" href="./photography.html">Photography</a>
+            </li>  
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3" href="./videography.html" role="button" data-bs-toggle="dropdown">Videography</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./videography.html#Film">Film</a></li>
+                <li><a class="dropdown-item" href="./videography.html#Documentary">Documentary</a></li>
+                <li><a class="dropdown-item" href="./videography.html#Wedding">Wedding</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link px-3" href="./contact-me.html">Contact Me</a>
+            </li>  
+        </ul>
+        </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-5">
+    <h3>CCT360 - Project Documentation</h3>
+    <p>Date: 2023-12-11</p>
+    <div class="row">
+        <div class="col-lg-12 mb-3">
+            <h5>Background</h3>
+            <p>This is  a collective project between CCT250 and CCT360, the CCT250 assignment focuses on the interactive prototype and branding design and the CCT360 assignment focuses on coding the responsive website using HTML, CSS, Javascript and Bootstrap. This project will be used as one of a portfolio project for a startup, my brother and another partner split our work into UI/UX design, website development, photography, videography, logo design and graphic design respectively. The decision to make a portfolio website for my brother was before he pulled me into his partnership with the Startup. I suggested afterwards treating this assignment as one of the portfolio projects that we can show to our potential clients. Anyway, my brother was just entering university and does not have a portfolio website yet. He does already in fact have an online presence on social media for his work. After my 4 years at CCIT, I have not only heard once from professors and professionals that building an art portfolio is important for someone like him. This was my rationale for creating this website initially.</p>
+            <p>The contact to CCT250 professor Kylie Caraway's contact is <a href="kylie.caraway@utoronto.ca">kylie.caraway@utoronto.ca</a></p>
+            <a href="https://xd.adobe.com/view/8acdf220-91aa-4563-8f61-97b912530067-df9e/?fullscreen">Link to Adobe XD Prototype</a>
+            <br>
+            <a href="https://www.dropbox.com/scl/fo/48eu0ro3lvdbnb27qzvtz/h?rlkey=ecm5hvi7kglvz0d1q9iwowjpe&dl=0">Link to CCT250 Assignment</a>
+        </div>
+        <div class="col-lg-12 mb-3">
+            <h5>Challenge 1 - Fonts</h3>
+            <p>Having the prototype ready in Adobe XD, what I really have to do is simply to replicate using Bootstrap 5. The first challenge I encountered is the fonts. I cannot use the fonts used in Adobe XD as they are all imported from Adobe Fonts. Therefore, I have to go back to my client, Max, to pick another font for essentially everything. To explore more potential fonts on the internet and being able to apply them into the website, I have learned using @fontface to import a font that is downloaded into the folders.</p>
+        </div>
+        <div class="col-lg-12 mb-3">
+            <h5>Challenge 2 - Images</h3>
+            <p>Because this is a art porfolio website, it is extremely content heavy. The assets management for this website is the largest I have seen. Renaming all of the images from client to keep assets organized is tedious but necessary. Having the website to load many images onto one page also become a challenge to accessiblity. I had to split up the art page into two, sketches and portfolio, just so less images have to be loaded at once.</p>
+        </div>
+        <div class="col-lg-12 mb-3">
+            <h5>Future Development</h3>
+            <p>On the home page, I do not like how many white space there is between each session. I propose to add a background image or video that spans across. This image/video will be at a fixed position and act as a divider between sessions. The two cards on the right can overlay onto the image/video so the white space can be filled.</p>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

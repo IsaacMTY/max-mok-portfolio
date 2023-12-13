@@ -1,0 +1,9 @@
+.work-item iframe{
+    min-height: 500px;
+    width: 100%;
+}
+
+.videography-types h3 {
+    font-size: 100px;
+    color: rgb(44, 80, 16);
+}

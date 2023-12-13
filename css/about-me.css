@@ -1,0 +1,41 @@
+@font-face {
+    font-family: BoogieNightsShadow;
+    src: url(../fonts/BoogieNightsShadowNF.ttf);
+}
+
+@font-face {
+    font-family: Arsenica;
+    src: url(../fonts/ArsenicaTrial-Extrabold.ttf);
+}
+
+@font-face {
+    font-family: Barbra;
+    src: url(../fonts/Barbra-Regular.ttf);
+}
+
+@font-face {
+    font-family: Franchise;
+    src: url(../fonts/Franchise.ttf);
+}
+
+@font-face {
+    font-family: MagicRetro;
+    src: url(../fonts/Magic\ Retro.ttf);
+}
+
+
+.about-me-logo {
+    background-color: #FAA968;
+}
+
+.about-me-logo img {
+    width: 60%;
+}
+
+.who-des {
+    background-color: #F85525;
+}
+
+.what-des {
+    background-color: #028391;
+}

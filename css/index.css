@@ -1,0 +1,62 @@
+.highlight-1 span {
+    font-family: Barbra;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.highlight-1 {
+    background-color: #FAA968;
+}
+
+.highlight-container h3 {
+    font-size: 50px;
+}
+
+.highlight-1 .card-1 {
+    background-color: #F85525;
+}
+
+.highlight-1 .card-1 .btn {
+    color: black;
+}
+
+.highlight-1 .card-2 {
+    background-color: #028391;
+    color: white;
+}
+
+.card {
+    transition: 1s;
+}
+
+.card .btn {
+    font-family: Barbra;
+    font-size: 15px;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgb(131, 131, 131);
+    transition: 0.3s;
+}
+
+h4 {
+    font-family: Barbra;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.background-1 img {
+    max-height: 100;
+}
+
+.highlight-0 {
+    background-color: white;
+}
+
+.highlight-0 .card-1 {
+    background-color: #F85525;
+}
+
+.highlight-0 .card-2 {
+    background-color: #028391;
+}

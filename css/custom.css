@@ -1,0 +1,85 @@
+@font-face {
+    font-family: BoogieNightsShadow;
+    src: url(../fonts/BoogieNightsShadowNF.ttf);
+}
+
+@font-face {
+    font-family: Arsenica;
+    src: url(../fonts/ArsenicaTrial-Extrabold.ttf);
+}
+
+@font-face {
+    font-family: Barbra;
+    src: url(../fonts/Barbra-Regular.ttf);
+}
+
+@font-face {
+    font-family: Franchise;
+    src: url(../fonts/Franchise.ttf);
+}
+
+@font-face {
+    font-family: MagicRetro;
+    src: url(../fonts/Magic\ Retro.ttf);
+}
+
+h3 {
+    font-family: Barbra;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Arsenica;
+    font-size: 15px;
+}
+
+.top-bar {
+    box-shadow: 0px 1px 10px black;
+}
+
+.top-bar img {
+    width: 150px;
+}
+
+.bg-color {
+    background-color: #A7C7E7;
+    color: black;
+}
+
+.nav-link, .dropdown-item {
+    font-family: MagicRetro;
+    font-size: 20px;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    background-color: rgb(28, 28, 28);
+}
+
+body {
+    background-color: #F6DCAC;
+}
+
+.work-title img {
+    position: absolute;
+    z-index: 1;
+}
+
+.work-title {
+    height: 120px;
+}
+
+.work-item img{
+    transition: 1s;
+}
+
+.work-item img:hover{
+    box-shadow: 0 0 10px rgb(131, 131, 131);
+    transition: 0.3s;
+}
