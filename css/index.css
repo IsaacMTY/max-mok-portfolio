@@ -60,3 +60,29 @@ h4 {
 .highlight-0 .card-2 {
     background-color: #028391;
 }
+
+.highlight-2 {
+    background-color: #F6DCAC;
+}
+
+.highlight-2 .card-1 {
+    background-color: #F85525;
+}
+
+.highlight-2 .card-2 {
+    background-color: #028391;
+}
+
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.background-container {
+    height: 300px;
+}
