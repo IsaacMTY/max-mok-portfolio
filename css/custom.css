@@ -23,6 +23,11 @@
     src: url(../fonts/Magic\ Retro.ttf);
 }
 
+@font-face {
+    font-family: CaviarDreams;
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
 h3 {
     font-family: Barbra;
     font-size: 30px;
@@ -30,8 +35,8 @@ h3 {
 }
 
 p {
-    font-family: Arsenica;
-    font-size: 15px;
+    font-family: CaviarDreams;
+    font-size: 20px;
 }
 
 .top-bar {
@@ -82,4 +87,8 @@ body {
 .work-item img:hover{
     box-shadow: 0 0 10px rgb(131, 131, 131);
     transition: 0.3s;
+}
+
+.side-bar {
+    padding-top: 120px;
 }

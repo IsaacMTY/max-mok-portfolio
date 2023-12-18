@@ -9,7 +9,11 @@
 }
 
 .highlight-container h3 {
-    font-size: 50px;
+    font-size: 70px;
+}
+
+.highlight-container p {
+    font-size: 20px;
 }
 
 .highlight-1 .card-1 {
@@ -82,8 +86,4 @@ h4 {
 
 .background-container {
     height: 300px;
-}
-
-.card-row {
-    max-height: 100px;
 }
